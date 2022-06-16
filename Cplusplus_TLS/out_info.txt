@@ -1,0 +1,99 @@
+10.236.11.230:60857 -> 106.3.156.198:443 len: 517
+Client hello!
+
+10.236.11.230:60857 -> 106.3.156.198:443 len: 102
+Server hello!
+
+10.236.11.230:60857 -> 106.3.156.198:443 len: 1200
+Finished
+
+find post data,start searching sensitive info in post data....
+matched login info!
+username:username=songku@tom.com
+password:password=lg%1C!Hc&M%7
+10.236.11.230:60857 -> 106.3.156.198:443 len: 1200
+Finished
+
+10.236.11.230:60860 -> 106.3.156.198:443 len: 517
+Client hello!
+
+10.236.11.230:60861 -> 106.3.156.198:443 len: 517
+Client hello!
+
+10.236.11.230:60862 -> 106.3.156.198:443 len: 517
+Client hello!
+
+10.236.11.230:60864 -> 106.3.156.198:443 len: 517
+Client hello!
+
+10.236.11.230:60865 -> 106.3.156.198:443 len: 517
+Client hello!
+
+10.236.11.230:60860 -> 106.3.156.198:443 len: 102
+Server hello!
+
+10.236.11.230:60860 -> 106.3.156.198:443 len: 1200
+Finished
+
+10.236.11.230:60861 -> 106.3.156.198:443 len: 102
+Server hello!
+
+10.236.11.230:60861 -> 106.3.156.198:443 len: 1200
+Finished
+
+10.236.11.230:60864 -> 106.3.156.198:443 len: 102
+Server hello!
+
+10.236.11.230:60864 -> 106.3.156.198:443 len: 1200
+Finished
+
+10.236.11.230:60862 -> 106.3.156.198:443 len: 102
+Server hello!
+
+10.236.11.230:60862 -> 106.3.156.198:443 len: 1200
+Finished
+
+10.236.11.230:60865 -> 106.3.156.198:443 len: 102
+Server hello!
+
+10.236.11.230:60865 -> 106.3.156.198:443 len: 1200
+Finished
+
+10.236.11.230:60860 -> 106.3.156.198:443 len: 1200
+Finished
+
+10.236.11.230:60861 -> 106.3.156.198:443 len: 1200
+Finished
+
+10.236.11.230:60862 -> 106.3.156.198:443 len: 1200
+Finished
+
+10.236.11.230:60864 -> 106.3.156.198:443 len: 1200
+Finished
+
+10.236.11.230:60865 -> 106.3.156.198:443 len: 1200
+Finished
+
+find post data,start searching sensitive info in post data....
+no sensitive info in this post data....
+find post data,start searching sensitive info in post data....
+no sensitive info in this post data....
+find post data,start searching sensitive info in post data....
+no sensitive info in this post data....
+find post data,start searching sensitive info in post data....
+no sensitive info in this post data....
+find post data,start searching sensitive info in post data....
+no sensitive info in this post data....
+find post data,start searching sensitive info in post data....
+no sensitive info in this post data....
+find post data,start searching sensitive info in post data....
+no sensitive info in this post data....
+find post data,start searching sensitive info in post data....
+no sensitive info in this post data....
+matched send mail info!
+from:songku@tom.com
+to:lkrwz@sina.com
+subject:https 主题
+content:<p>https内容</p>
+find post data,start searching sensitive info in post data....
+no sensitive info in this post data....
