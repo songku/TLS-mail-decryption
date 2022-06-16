@@ -37,71 +37,11 @@ $ ./tom_mail_decrypt ./tom_pcap.pcap ./tom_ssl.log ./out_info.txt
 ```
 after that you will get your output info in out_info.txt,just like the below photo
 
-![](imgs/tom_mail_decrypt.png)
-
-## TODO
-
-
+![C++ tom mail decrypt](imgs/tom_mail_decrypt.png)
 
 ## Structure of this reporitory
 
-│  README.md
-│  tree.txt
-│  tree_old.txt
-│  
-├─Cplusplus_TLS  #cpp tls decryption
-│      all_decoded_https.txt  # tom_mail.pcap's all decrypted http info
-│      camellia_eax_mode.cpp  # an example to use cryptopp
-│      out_info.txt  # outcome of ./tls_mail_decrypt
-│      tls_decrypt.cpp  # tls decrypt cpp file
-│      tls_decrypt.h
-│      tom_mail.pcap
-│      tom_mail_decrypt
-│      tom_mail_decrypt.cpp  # main cpp file
-│      tom_pcap.pcap
-│      tom_ssl.log
-│      utils.cpp  # utils cpp file
-│      utils.h
-│      
-├─imgs
-│      build_cryptest.png
-│      build_success.png
-│      get_and_install_libnids.png
-│      install_bison.png
-│      make_cryptopp_library.png
-│      run_test_int.png
-│      run_test_int_with_dynamic_link_library.png
-│      search_cryptopp_on_centos_fail.png
-│      solve_error.png
-│      tom_mail_decrypt.png
-│      tshark_error.png
-│      verify_success.png
-│      watch_libcryptopp_path.png
-│      
-└─Python_TLS
-    │  CipherSuite.md  # CipherSuites's pattern
-    │  debug_record.md  # ssl debug file's record
-    │  hit_mail_decrypt.py
-    │  introducution_of_TLS.md  # TLS session principle learn record
-    │  KeyMaterial.py  # implement of KeyMaterial class
-    │  MasterDecrypter.py  # implement of initial MasterDecrypter class
-    │  parsePcap.py  # initial singlestream decryption script
-    │  single_stream_example.py  # personal singlestream decryption script
-    │  testMasterDecrypter.py  # just test MasterDecryper class
-    │  
-    ├─hit_mail
-    │      hit_mail.pcap
-    │      ssl.log
-    │      ssldebug.log
-    │      
-    ├─singlestream_example
-    │      singlestream.openmrs.org.pcap
-    │      single_keylog.txt
-    │      
-    └─wireshark_example
-            debug.txt
-            dump.pcapng
-            premaster.txt
+![Folder Structure Tree](imgs/tree.png)
 
 # Install the C++ dependencies
 
@@ -118,7 +58,7 @@ sudo yum install flex
 sudo yum install bison
 ````
 
-![image-20220520193239081](../imgs/install_bison.png)
+![install bison](imgs/install_bison.png)
 
 Download the libpcap installation package and unzip the installation
 
@@ -134,7 +74,7 @@ make install
 ### 2. Install libnids-1.24
 
 ```bash
-wget https://nchc.dl.sourceforge.net/project/libnids/libnids/1.24/libnids-1.24.tar.gz #download libnids
+wget https://nchc.dl.sourceforge.net/project/libnids/libnids/1.24/libnids-1.24.tar.gz #download libnids,pay attention to this url.It may not be useful.You'd better go to sourceforge to download it.
 tar -xf libnids-1.24.tar.gz #decompress
 cd libnids-1.24 #Switch directory
 ./configure --disable-libglib --disable-libnet #Configure
@@ -166,7 +106,7 @@ yum install cryptopp cryptopp-progs
 
 However, the installation package does not exist in my own centos image.
 
-![image-20220602160808436](imgs/search_cryptopp_on_centos_fail.png)
+![](imgs/search_cryptopp_on_centos_fail.png)
 
 Finally download and unzip from sourceforge: https://sourceforge.net/projects/cryptopp/
 
